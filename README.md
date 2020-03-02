@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Technical Design Document
 
-You can use the [editor on GitHub](https://github.com/EnricGDV/Research-TDD/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I am Enric-G. Durán, student of the UPC Bachelor’s Degree in Video Games at CITM. This content corresponds to the second year’s subject Project 2, under the supervision of lecturer Ramón Santamaría
 
 ### Markdown
 
