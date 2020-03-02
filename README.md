@@ -1,6 +1,6 @@
-## Technical Design Document
+# Technical Design Document
 
-I am Enric-G. Durán, student of the UPC Bachelor’s Degree in Video Games at CITM. This content corresponds to the second year’s subject Project 2, under the supervision of lecturer Ramón Santamaría
+I am [Enric-G. Durán](https://github.com/EnricGDV), student of the UPC [Bachelor’s Degree in Video Games at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content corresponds to the second year’s subject Project 2, under the supervision of lecturer [Ramón Santamaría](https://www.linkedin.com/in/raysan/)
 
 ### Markdown
 
