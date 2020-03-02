@@ -4,14 +4,14 @@ I am [Enric-G. Durán](https://github.com/EnricGDV), student of the UPC [Bachelo
 
 ## Index
 
-- [The Problem](https://enricgdv.github.io/Research-TDD/##The-Problem)
+- [The Problem](https://enricgdv.github.io/Research-TDD/##the-problem)
 
-- [Approaches](https://enricgdv.github.io/Research-TDD/##Approaches)
-  - [Software](https://enricgdv.github.io/Research-TDD/###Software)
-  - [Games](https://enricgdv.github.io/Research-TDD/###Games)
-  - [Us](https://enricgdv.github.io/Research-TDD/#Us)
+- [Approaches](https://enricgdv.github.io/Research-TDD/##approaches)
+  - [Software](https://enricgdv.github.io/Research-TDD/###software)
+  - [Games](https://enricgdv.github.io/Research-TDD/###games)
+  - [Us](https://enricgdv.github.io/Research-TDD/#us)
 
-- [My Solution](https://enricgdv.github.io/Research-TDD/#My-Solution)
+- [My Solution](https://enricgdv.github.io/Research-TDD/#my-solution)
   1. Introduction
   2. Target Platform
   3. Development Hardware
