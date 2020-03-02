@@ -4,31 +4,32 @@ I am [Enric-G. Durán](https://github.com/EnricGDV), student of the UPC [Bachelo
 
 ## Index
 
-- [The Problem](https://enricgdv.github.io/Research-TDD/##the-problem)
+- [The Problem](https://enricgdv.github.io/Research-TDD/#the-problem)
 
-- [Approaches](https://enricgdv.github.io/Research-TDD/##approaches)
-  - [Software](https://enricgdv.github.io/Research-TDD/###software)
-  - [Games](https://enricgdv.github.io/Research-TDD/###games)
+- [Approaches](https://enricgdv.github.io/Research-TDD/#approaches)
+  - [Software](https://enricgdv.github.io/Research-TDD/#software)
+  - [Games](https://enricgdv.github.io/Research-TDD/#games)
   - [Us](https://enricgdv.github.io/Research-TDD/#us)
 
 - [My Solution](https://enricgdv.github.io/Research-TDD/#my-solution)
-  1. Introduction
-  2. Target Platform
-  3. Development Hardware
-  4. External Tools
-  5. Game Mechanics
-  6. Code Style
-  7. Diagrams
-  8. Data Layout
-  9. Scheduling
-  10. Build Delivery Method
+  1. [Introduction](https://enricgdv.github.io/Research-TDD/#introduction)
+  2. [Target Platform](https://enricgdv.github.io/Research-TDD/#target-platform)
+  3. [Development Hardware](https://enricgdv.github.io/Research-TDD/#development-hardware)
+  4. [External Tools](https://enricgdv.github.io/Research-TDD/#external-tools)
+  5. [Game Mechanics](https://enricgdv.github.io/Research-TDD/#game-mechanics)
+  6. [Code Style](https://enricgdv.github.io/Research-TDD/#code-style)
+  7. [Diagrams](https://enricgdv.github.io/Research-TDD/#diagrams)
+  8. [Data Layout](https://enricgdv.github.io/Research-TDD/#data-layout)
+  9. [Scheduling](https://enricgdv.github.io/Research-TDD/#scheduling)
+  10. [Build Delivery Method](https://enricgdv.github.io/Research-TDD/#build-delivery-method)
   
 
-- Exercise
+- [Exercise](https://enricgdv.github.io/Research-TDD/#exercise)
 
-- Bibliography
+- [Bibliography](https://enricgdv.github.io/Research-TDD/#bibliography)
 
 ## The Problem
+
 
 ## Approaches
 
