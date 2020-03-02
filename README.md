@@ -36,18 +36,29 @@ I am [Enric-G. Durán](https://github.com/EnricGDV), student of the UPC [Bachelo
 
 [Last year's research](https://dlorenzolaguno17.github.io/TDD/)
 
+[TDD Purpose](https://www.wisdomjobs.com/e-university/game-developing-tutorial-261/purpose-of-the-technical-design-document-6737.html)
+
 [Software TDD 1](https://medium.com/machine-words/writing-technical-design-docs-71f446e42f2e)
+
 [Software TDD 2](https://medium.com/machine-words/writing-technical-design-docs-revisited-850d36570ec)
+
 [Software TDD 3](https://www.range.co/blog/better-tech-specs)
+
 [Software TDD 4](https://www.toptal.com/freelance/why-design-documents-matter)
 
-https://www.studytonight.com/3d-game-engineering-with-unity/tdd-and-gdd
-https://computergamesmmu.files.wordpress.com/2012/10/technical-design-document-final.pdf
-https://github.com/GameDesign/Zero/wiki/Technical-Design-Document#Game_Overview
-https://github.com/DevCrumbs/Warcraft-II/wiki/7.-Tech-Design-Document
-https://flylib.com/books/en/3.36.1.158/1/
-https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches
-https://www.wisdomjobs.com/e-university/game-developing-tutorial-261/purpose-of-the-technical-design-document-6737.html
+[Game TDD](https://www.studytonight.com/3d-game-engineering-with-unity/tdd-and-gdd)
+
+[TDD Example 1](https://computergamesmmu.files.wordpress.com/2012/10/technical-design-document-final.pdf)
+
+[TDD Example 2](https://github.com/GameDesign/Zero/wiki/Technical-Design-Document#Game_Overview)
+
+[TDD Example 3](https://github.com/DevCrumbs/Warcraft-II/wiki/7.-Tech-Design-Document)
+
+[TDD Example 4](https://flylib.com/books/en/3.36.1.158/1/)
+
+[Branching in GitHub](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches)
+
+
 
 
 ### Markdown
