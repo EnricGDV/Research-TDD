@@ -12,8 +12,8 @@ I am [Enric-G. Durán](https://github.com/EnricGDV), student of the UPC [Bachelo
   - [Us](https://enricgdv.github.io/Research-TDD/#us)
 
 - [My Solution](https://enricgdv.github.io/Research-TDD/#my-solution)
-  1. [Introduction](https://enricgdv.github.io/Research-TDD/#1.-introduction)
-  2. [Target Platform](https://enricgdv.github.io/Research-TDD/#target-platform)
+  1. [Introduction](https://enricgdv.github.io/Research-TDD/#1--introduction)
+  2. [Target Platform](https://enricgdv.github.io/Research-TDD/#2-target-platform)
   3. [Development Hardware](https://enricgdv.github.io/Research-TDD/#development-hardware)
   4. [External Tools](https://enricgdv.github.io/Research-TDD/#external-tools)
   5. [Game Mechanics](https://enricgdv.github.io/Research-TDD/#game-mechanics)
@@ -41,25 +41,25 @@ I am [Enric-G. Durán](https://github.com/EnricGDV), student of the UPC [Bachelo
 
 ## My Solution
 
-### 1. Introduction
+### 1  Introduction
 
-### 2. Target Platform
+### 2  Target Platform
 
-### 3. Development Hardware
+### 3  Development Hardware
 
-### 4. External Tools
+### 4  External Tools
 
-### 5. Game Mechanics
+### 5  Game Mechanics
 
-### 6. Code Style
+### 6  Code Style
 
-### 7. Diagrams
+### 7  Diagrams
 
-### 8. Data Layout
+### 8  Data Layout
 
-### 9. Scheduling
+### 9  Scheduling
 
-### 10. Build Delivery Method
+### 10  Build Delivery Method
 
 ## Exercise
 
