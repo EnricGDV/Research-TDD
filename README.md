@@ -12,7 +12,7 @@ I am [Enric-G. Durán](https://github.com/EnricGDV), student of the UPC [Bachelo
   - [Us](https://enricgdv.github.io/Research-TDD/#us)
 
 - [My Solution](https://enricgdv.github.io/Research-TDD/#my-solution)
-  1. [Introduction](https://enricgdv.github.io/Research-TDD/#introduction)
+  1. [Introduction](https://enricgdv.github.io/Research-TDD/#1.-introduction)
   2. [Target Platform](https://enricgdv.github.io/Research-TDD/#target-platform)
   3. [Development Hardware](https://enricgdv.github.io/Research-TDD/#development-hardware)
   4. [External Tools](https://enricgdv.github.io/Research-TDD/#external-tools)
