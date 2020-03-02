@@ -4,9 +4,39 @@ I am [Enric-G. Durán](https://github.com/EnricGDV), student of the UPC [Bachelo
 
 ## Index
 
+- [The Problem](https://enricgdv.github.io/Research-TDD/##The-Problem)
+
+- [Approaches](https://enricgdv.github.io/Research-TDD/##Approaches)
+  - [Software](https://enricgdv.github.io/Research-TDD/###Software)
+  - [Games](https://enricgdv.github.io/Research-TDD/###Games)
+  - [Us](https://enricgdv.github.io/Research-TDD/#Us)
+
+- [My Solution](https://enricgdv.github.io/Research-TDD/#My-Solution)
+  1. Introduction
+  2. Target Platform
+  3. Development Hardware
+  4. External Tools
+  5. Game Mechanics
+  6. Code Style
+  7. Diagrams
+  8. Data Layout
+  9. Scheduling
+  10. Build Delivery Method
+  
+
+- Exercise
+
+- Bibliography
+
 ## The Problem
 
 ## Approaches
+
+### Software
+
+### Games
+
+### Us
 
 ## My Solution
 
