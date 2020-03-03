@@ -42,6 +42,7 @@ Once we understand the importance of making a TDD for our project, we should sea
 
 ### In Software
 For software creation in general, [TDDs](https://medium.com/machine-words/writing-technical-design-docs-revisited-850d36570ec) are very related to research and the functionality of the code itself: the questions and the answers the program wants to provide. However, in essence, the template for any TDD follows the same logical order that goes from what we want to do to what platform do we do it for, how we do it, where we do it and how we deliver it.
+
 ![](Docs/software.gif)
 
 (more examples seen in the bibliography)
@@ -53,8 +54,12 @@ In game creation [TDDs](https://github.com/GameDesign/Zero/wiki/Technical-Design
 (more examples seen in the bibliography)
 
 ### In this Subject
+Finally, we need to know that we are not the only ones that have done this project and we can look back to see what [TDD](https://github.com/DevCrumbs/Warcraft-II/wiki/7.-Tech-Design-Document) proposals other students came up with in past years for a situation nearer to the scope of our own project. The point of this is NOT copying, but learning from them and improving their proposals.
+![Image](Docs/this_subject.jpg)
+
 
 ## My Solution
+
 
 ### 1  Introduction
 
