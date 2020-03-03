@@ -105,6 +105,8 @@ Here each of the parts of the game that need to be implemented in the code are e
 
 **Physics and Collisions:** Analysis of the functionality of collisions and physics of the game (Are they realistic? To which objects are they applied?)
 
+**Network:** Only needed in the case that the game has online features.
+
 ### 6  Code Style
 Every project should follow a **homogeneous set of rules** for all the code that is implemented by the different programmers so that the project has better intelligibility for any interested people who might see it and also for the participants. Having a homogeneous code style is a very easy way to avoid time of debugging and fixing errors. The strictness of the code style guidelines is different in every team, but some examples of conventions would be:
 
@@ -116,7 +118,7 @@ Every variable should start with a lower case letter
 uint life 100
 ```
 
-- **Variables:** How to manage, declare and initialize variables and whether to declare them inside ```public´´´, ```protected´´´ or ```private´´´ part when using classes or structs. For example:
+- **Variables:** How to manage, declare and initialize variables and whether to declare them inside ```public```, ```protected``` or ```private``` part when using classes or structs. For example:
 
 ```
  Every time a pointer is created must be initialized as null:
@@ -125,17 +127,34 @@ uint life 100
 
 - **Loops:** Names the loop expressions preferred inside the code (```while```, ```do-while```, ```for```,...) and when to use the ```break``` and ```continue``` keywords.
 
-- **Conditionals:** Names the loop expressions preferred inside the code (```while```, ```do-while```, ```for```,...) and when to use the ```break``` and ```continue``` keywords.
+- **Conditionals:** Describes conditionals use, the rules of separation of lines using ```if```, where to use scopes ```{}``` or if conditionals with operators are preferred. For example:
 
 ```
- Every time a pointer is created must be initialized as null:
- int* test = nullptr;
+  We prefer a conditional like if(something == true) {}
+  rather than one like if(something) {}
 ```
+
+- **Classes & Structs:** Rules about how to choose between classes or structs and how to write elements inside them.
+
+- **XML:** States how to write variables in XML files for the game and how to use their nodes and attributes. For example:
+
+```
+  If a node has more than one attribute we'll declare them in different lines:
+ <house> 
+  <colour="red"/>
+  <walls=4/>
+ </house>
+```
+
+This list of elements has been made taking [DLorenzoLaguno](https://dlorenzolaguno17.github.io/)’s TDD as a reference.
+
 
 ### 7  UML
 Main UML of the **Code Organization Overview**. An UML diagram of all the code in the project that shows every class, the inheritance between them and the variables and functions allocated inside. This diagram is supposed to change throughout the time of development, increasing its size and complexity.
 
 ![Image](Docs/uml.png)
+
+Image of [DevCrumb](https://github.com/DevCrumbs/Warcraft-II/)’s general UML for their game Warcraft II: The Stolen Artifacts.
 
 ### 8  Data Layout
 Diagram or explanation of how the folders of the project are distributed and a brief explanation stating the logic behind it.
@@ -147,7 +166,10 @@ Calendar or table (trello format) with every feature to include in the game, the
 
 ![Image](Docs/schedule.jpg)
 
+In addition, there will also be a list of every version planned from the start of the project as a guideline for the order of the features implemented and such.
+
 ### 10  Build Delivery Method
+This section allocates an explanation of how every build will be created in the project.
 
 ## Exercise
 In the case that there is time left, the students will be asked to form their project II groups, choose a game and decide what the main points of the TDD could have been like for its development.
@@ -179,38 +201,3 @@ In the case that there is time left, the students will be asked to form their pr
 [Performance Budgets](https://web.dev/performance-budgets-101/)
 
 [Branching in GitHub](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches)
-
-
-
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/EnricGDV/Research-TDD/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
