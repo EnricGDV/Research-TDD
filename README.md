@@ -162,7 +162,7 @@ Diagram or explanation of how the folders of the project are distributed and a b
 ![Image](Docs/layout.png)
 
 ### 9  Scheduling
-Calendar or table (trello format) with every feature to include in the game, the person in charge of it and its delivery date. It should as well include all the vertical slices, builds and sprints allocated during the project. This schedule is a form of orientation and is most definitely going to change.
+Here we can find a calendar or graph (trello style) with every feature to include in the game, the person in charge of it and its delivery date. It should as well include all the vertical slices, builds and sprints allocated during the project. This schedule is a form of orientation and is most definitely going to change.
 
 ![Image](Docs/schedule.jpg)
 
