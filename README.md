@@ -7,21 +7,21 @@ I am [Enric-G. Durán](https://github.com/EnricGDV), student of the UPC [Bachelo
 - [The Problem](https://enricgdv.github.io/Research-TDD/#the-problem)
 
 - [Approaches](https://enricgdv.github.io/Research-TDD/#approaches)
-  - [Software](https://enricgdv.github.io/Research-TDD/#software)
-  - [Games](https://enricgdv.github.io/Research-TDD/#games)
-  - [Us](https://enricgdv.github.io/Research-TDD/#us)
+  - [In Software](https://enricgdv.github.io/Research-TDD/#in-software)
+  - [In Games](https://enricgdv.github.io/Research-TDD/#in-games)
+  - [In this Subject](https://enricgdv.github.io/Research-TDD/#in-this-subject)
 
 - [My Solution](https://enricgdv.github.io/Research-TDD/#my-solution)
-  1. [Introduction](https://enricgdv.github.io/Research-TDD/#1--introduction)
-  2. [Target Platform](https://enricgdv.github.io/Research-TDD/#2--target-platform)
-  3. [Development Hardware](https://enricgdv.github.io/Research-TDD/#3--development-hardware)
-  4. [External Tools](https://enricgdv.github.io/Research-TDD/#4--external-tools)
-  5. [Game Mechanics](https://enricgdv.github.io/Research-TDD/#5--game-mechanics)
-  6. [Code Style](https://enricgdv.github.io/Research-TDD/#6--code-style)
-  7. [Diagrams](https://enricgdv.github.io/Research-TDD/#7--diagrams)
-  8. [Data Layout](https://enricgdv.github.io/Research-TDD/#8--data-layout)
-  9. [Scheduling](https://enricgdv.github.io/Research-TDD/#9--scheduling)
-  10. [Build Delivery Method](https://enricgdv.github.io/Research-TDD/#10--build-delivery-method)
+     1. [Introduction](https://enricgdv.github.io/Research-TDD/#1--introduction)
+     2. [Target Platform](https://enricgdv.github.io/Research-TDD/#2--target-platform)
+     3. [Development Hardware](https://enricgdv.github.io/Research-TDD/#3--development-hardware)
+     4. [External Tools](https://enricgdv.github.io/Research-TDD/#4--external-tools)
+     5. [Game Mechanics](https://enricgdv.github.io/Research-TDD/#5--game-mechanics)
+     6. [Code Style](https://enricgdv.github.io/Research-TDD/#6--code-style)
+     7. [Diagrams](https://enricgdv.github.io/Research-TDD/#7--diagrams)
+     8. [Data Layout](https://enricgdv.github.io/Research-TDD/#8--data-layout)
+     9. [Scheduling](https://enricgdv.github.io/Research-TDD/#9--scheduling)
+     10. [Build Delivery Method](https://enricgdv.github.io/Research-TDD/#10--build-delivery-method)
   
 
 - [Exercise](https://enricgdv.github.io/Research-TDD/#exercise)
@@ -32,7 +32,7 @@ I am [Enric-G. Durán](https://github.com/EnricGDV), student of the UPC [Bachelo
 
 The need for a Tech Design Document is one of structure and organization so that the members of the team know the circumstances the project is surrounded by. It also goes into detail explaining in which way the mechanics and the feel the GDD conceptualizes are going to be implemented in code.  
 A TDD basically works like a blueprint for the programmers or engineers in the team to implement their code properly, just like an architect would do with a building so that the construction workers follow the conventions.
-![](https://github.com/EnricGDV/Research-TDD/blob/master/Docs/lego.gif)
+![](Docs/lego.gif)
 
 Apart from coders, the rest of the team also benefits from knowing the TDD as it specifies every piece of hardware or software to use in the process and lets them know the limits of what they can make or design.
 Without a TDD, a project is almost undoubtedly going to suffer from lacking information about its limitations, scope and procedures to stick to when it comes to coding.
@@ -40,13 +40,19 @@ Without a TDD, a project is almost undoubtedly going to suffer from lacking info
 ## Approaches
 Once we understand the importance of making a TDD for our project, we should search for references from other teams that have similar needs to ours in order to find a proper structure and really understand what this document is about.
 
-### Software
+### In Software
 For software creation in general, [TDDs](https://medium.com/machine-words/writing-technical-design-docs-revisited-850d36570ec) are very related to research and the functionality of the code itself: the questions and the answers the program wants to provide. However, in essence, the template for any TDD follows the same logical order that goes from what we want to do to what platform do we do it for, how we do it, where we do it and how we deliver it.
-![](https://github.com/EnricGDV/Research-TDD/blob/master/Docs/software.gif)
+![](Docs/software.gif)
 
-### Games
+(more examples seen in the bibliography)
 
-### Us
+### In Games
+In game creation [TDDs](https://github.com/GameDesign/Zero/wiki/Technical-Design-Document#Game_Overview) is where we can find examples similar to what our document should be like. We can see different structures depending on what the focus is, however, most examples you can find will follow the same important bullet points. One important thing to take into account, though, is that our project's scope is very different from big productions and there are technical differences between genres, platforms, artstyles...
+![](Docs/games.gif)
+
+(more examples seen in the bibliography)
+
+### In this Subject
 
 ## My Solution
 
