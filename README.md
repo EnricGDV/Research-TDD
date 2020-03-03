@@ -108,7 +108,7 @@ Here each of the parts of the game that need to be implemented in the code are e
 **Network:** Only needed in the case that the game has online features.
 
 ### 6  Code Style
-Every project should follow a **homogeneous set of rules** for all the code that is implemented by the different programmers so that the project has better intelligibility for any interested people who might see it and also for the participants. Having a homogeneous code style is a very easy way to avoid time of debugging and fixing errors. The strictness of the code style guidelines is different in every team, but some examples of conventions would be:
+Every project should follow a **homogeneous set of rules** for all the code that is implemented by the different programmers so that the project has better intelligibility for any interested people who might see it and also for the participants. Having a homogeneous code style is a very easy way to avoid losing time of debugging and fixing errors. The strictness of the code style guidelines is different in every team, but some examples of conventions would be:
 
 - **Naming Rules:** These explain rules like the code language, how variables act and are created, signs like parenthesis or claudators and the perspective on comments.
 For example:
