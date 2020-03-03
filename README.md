@@ -111,9 +111,25 @@ Every project should follow a **homogeneous set of rules** for all the code that
 - **Naming Rules:** These explain rules like the code language, how variables act and are created, signs like parenthesis or claudators and the perspective on comments.
 For example:
 
-```markdown
-No variable should start with a capital letter
-uint Life 100
+```
+Every variable should start with a lower case letter
+uint life 100
+```
+
+- **Variables:** How to manage, declare and initialize variables and whether to declare them inside ```public´´´, ```protected´´´ or ```private´´´ part when using classes or structs. For example:
+
+```
+ Every time a pointer is created must be initialized as null:
+ int* test = nullptr;
+```
+
+- **Loops:** Names the loop expressions preferred inside the code (```while```, ```do-while```, ```for```,...) and when to use the ```break``` and ```continue``` keywords.
+
+- **Conditionals:** Names the loop expressions preferred inside the code (```while```, ```do-while```, ```for```,...) and when to use the ```break``` and ```continue``` keywords.
+
+```
+ Every time a pointer is created must be initialized as null:
+ int* test = nullptr;
 ```
 
 ### 7  UML
@@ -122,8 +138,14 @@ Main UML of the **Code Organization Overview**. An UML diagram of all the code i
 ![Image](Docs/uml.png)
 
 ### 8  Data Layout
+Diagram or explanation of how the folders of the project are distributed and a brief explanation stating the logic behind it.
+
+![Image](Docs/layout.png)
 
 ### 9  Scheduling
+Calendar or table (trello format) with every feature to include in the game, the person in charge of it and its delivery date. It should as well include all the vertical slices, builds and sprints allocated during the project. This schedule is a form of orientation and is most definitely going to change.
+
+![Image](Docs/schedule.jpg)
 
 ### 10  Build Delivery Method
 
