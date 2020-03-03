@@ -32,6 +32,7 @@ I am [Enric-G. Durán](https://github.com/EnricGDV), student of the UPC [Bachelo
 
 The need for a Tech Design Document is one of structure and organization so that the members of the team know the circumstances the project is surrounded by. It also goes into detail explaining in which way the mechanics and the feel the GDD conceptualizes are going to be implemented in code.  
 A TDD basically works like a blueprint for the programmers or engineers in the team to implement their code properly, just like an architect would do with a building so that the construction workers follow the conventions.
+
 ![](Docs/lego.gif)
 
 Apart from coders, the rest of the team also benefits from knowing the TDD as it specifies every piece of hardware or software to use in the process and lets them know the limits of what they can make or design.
@@ -45,27 +46,34 @@ For software creation in general, [TDDs](https://medium.com/machine-words/writin
 
 ![](Docs/software.gif)
 
-(more examples seen in the bibliography)
+(for more examples go to [Bibliography](https://enricgdv.github.io/Research-TDD/#bibliography))
 
 ### In Games
 In game creation [TDDs](https://github.com/GameDesign/Zero/wiki/Technical-Design-Document#Game_Overview) is where we can find examples similar to what our document should be like. We can see different structures depending on what the focus is, however, most examples you can find will follow the same important bullet points. One important thing to take into account, though, is that our project's scope is very different from big productions and there are technical differences between genres, platforms, artstyles...
 ![](Docs/games.gif)
 
-(more examples seen in the bibliography)
+(for more examples go to [Bibliography](https://enricgdv.github.io/Research-TDD/#bibliography))
 
 ### In this Subject
 Finally, we need to know that we are not the only ones that have done this project and we can look back to see what [TDD](https://github.com/DevCrumbs/Warcraft-II/wiki/7.-Tech-Design-Document) proposals other students came up with in past years for a situation nearer to the scope of our own project. The point of this is NOT copying, but learning from them and improving their proposals.
 ![Image](Docs/this_subject.jpg)
 
+(for more examples go to [Bibliography](https://enricgdv.github.io/Research-TDD/#bibliography))
 
 ## My Solution
-
+After my research through different structures proposed online, I arrived to the following TDD template:
 
 ### 1  Introduction
+Includes the name of the game, a brief description (genre, main mechanics, feel...), the code language and the licensing.
+It keeps the goal and the basics of the project in the mind of the engineers.
 
 ### 2  Target Platform
+Includes the chosen platform for the project and its technical specifications.
+Also includes the **performance budget**, which is based in genre, mechanics, style and platform, but moreover, the resources of the team. The aim should normally be 60fps.
+![Image](Docs/platform.gif)
 
 ### 3  Development Hardware
+
 
 ### 4  External Tools
 
@@ -82,6 +90,7 @@ Finally, we need to know that we are not the only ones that have done this proje
 ### 10  Build Delivery Method
 
 ## Exercise
+In the case that there is time left, the students will be asked to form their project II groups, choose a game and 
 
 ## Bibliography
 
