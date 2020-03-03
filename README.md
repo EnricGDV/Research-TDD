@@ -30,10 +30,19 @@ I am [Enric-G. Durán](https://github.com/EnricGDV), student of the UPC [Bachelo
 
 ## The Problem
 
+The need for a Tech Design Document is one of structure and organization so that the members of the team know the circumstances the project is surrounded by. It also goes into detail explaining in which way the mechanics and the feel the GDD conceptualizes are going to be implemented in code.  
+A TDD basically works like a blueprint for the programmers or engineers in the team to implement their code properly, just like an architect would do with a building so that the construction workers follow the conventions.
+![Image](https://github.com/EnricGDV/Research-TDD/blob/master/Docs/lego.gif)
+
+Apart from coders, the rest of the team also benefits from knowing the TDD as it specifies every piece of hardware or software to use in the process and lets them know the limits of what they can make or design.
+Without a TDD, a project is almost undoubtedly going to suffer from lacking information about its limitations, scope and procedures to stick to when it comes to coding.
 
 ## Approaches
+Once we understand the importance of making a TDD for our project, we should search for references from other teams that have similar needs to ours in order to find a proper structure and really understand what this document is about.
 
 ### Software
+For software creation in general, [TDDs](https://medium.com/machine-words/writing-technical-design-docs-revisited-850d36570ec) are very related to research and the functionality of the code itself: the questions and the answers the program wants to provide. However, in essence, the template for any TDD follows the same logical order that goes from what we want to do to what platform do we do it for, how we do it, where we do it and how we deliver it.
+![Image](https://github.com/EnricGDV/Research-TDD/blob/master/Docs/software.gif)
 
 ### Games
 
