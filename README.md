@@ -171,6 +171,10 @@ In addition, there will also be a list of every version planned from the start o
 ### 10  Build Delivery Method
 This section allocates an explanation of how every build will be created in the project.
 
+![Image](Docs/github_actions.png)
+
+For more information, check out this video on [GitHub Actions](https://www.youtube.com/watch?v=E1OunoCyuhY) (Minutes 7:30 to 12 shown in class)
+
 ## Exercise
 In the case that there is time left, the students will be asked to form their project II groups, choose a game and decide what the main points of the TDD could have been like for its development.
 
