@@ -12,16 +12,16 @@ I am [Enric-G. Durán](https://github.com/EnricGDV), student of the UPC [Bachelo
   - [In this Subject](https://enricgdv.github.io/Research-TDD/#in-this-subject)
 
 - [My Solution](https://enricgdv.github.io/Research-TDD/#my-solution)
-     1. [Introduction](https://enricgdv.github.io/Research-TDD/#1--introduction)
-     2. [Technical Goals](https://enricgdv.github.io/Research-TDD/#2--target-platform)
-     3. [Development Hardware](https://enricgdv.github.io/Research-TDD/#3--development-hardware)
-     4. [Development Software](https://enricgdv.github.io/Research-TDD/#4--external-tools)
-     5. [Game Mechanics](https://enricgdv.github.io/Research-TDD/#5--game-mechanics)
-     6. [Code Style](https://enricgdv.github.io/Research-TDD/#6--code-style)
-     7. [Diagrams](https://enricgdv.github.io/Research-TDD/#7--diagrams)
-     8. [Data Layout](https://enricgdv.github.io/Research-TDD/#8--data-layout)
-     9. [Scheduling](https://enricgdv.github.io/Research-TDD/#9--scheduling)
-     10. [Build Delivery Method](https://enricgdv.github.io/Research-TDD/#10--build-delivery-method)
+    - 1. [Introduction](https://enricgdv.github.io/Research-TDD/#1--introduction)
+    - 2. [Technical Goals](https://enricgdv.github.io/Research-TDD/#2--target-platform)
+    - 3. [Development Hardware](https://enricgdv.github.io/Research-TDD/#3--development-hardware)
+    - 4. [Development Software](https://enricgdv.github.io/Research-TDD/#4--external-tools)
+    - 5. [Game Mechanics](https://enricgdv.github.io/Research-TDD/#5--game-mechanics)
+    - 6. [Code Style](https://enricgdv.github.io/Research-TDD/#6--code-style)
+    - 7. [Diagrams](https://enricgdv.github.io/Research-TDD/#7--diagrams)
+    - 8. [Data Layout](https://enricgdv.github.io/Research-TDD/#8--data-layout)
+    - 9. [Scheduling](https://enricgdv.github.io/Research-TDD/#9--scheduling)
+    - 10. [Build Delivery Method](https://enricgdv.github.io/Research-TDD/#10--build-delivery-method)
   
 
 - [Exercise](https://enricgdv.github.io/Research-TDD/#exercise)
@@ -73,6 +73,8 @@ Includes the chosen platform for the project and its technical specifications.
 But most importantly, it includes the **performance budgets**, which are the resources the game can afford to use and are mesured in many ways: fps, quantity of textures, waiting time.... These are affected by the genre, mechanics, style and platform, but moreover, the resources of the team.
 The performance budgets should be made considering  **the target platform** and vice-versa as an incongruence between them could cause the game to be too powerful for a platform or not use the resources the platform offers.
 
+More about [Performance Budgets](https://web.dev/performance-budgets-101/)...
+
 ![](Docs/platform.gif)
 
 ### 3  Development Hardware
@@ -81,15 +83,27 @@ Similar to the case of the **Target Platform**, here we should find the minimum 
 ### 4  Development Software
 Specification of the software and pre-existing code that will be used during the project as well as what the software is going to be used for. This englobes any piece of software that the developers of the game haven't made and need to know how to use to implement in the project.
 
-![](Docs/art-software.gif)
+![](Docs/art software.gif)
+
+**GitHub Branching:**
+GitHub, which is a platform used to share the work environment of the project, allows developers to work in different branches. This is called branching and while useful, this establishes a following of rules and conventions that must be followed every commit. It is important that the branches are explained in the TDD **so that this advantage doesn't become a setback for the project.**
 
 ### 5  Game Mechanics
 Here each of the parts of the game that need to be implemented in the code are explained.
-            
+**Technical Requirements:** A list of every important feature that the team needs to develop and implement into the game and what the plan to do it is (i.e. Entity System, Split Screen, Random Map Generation...)
+**Game Architecture:** A diagram or a written explanation of the game loop and how data is managed (saved and loaded) trhoughout the game.
+
+![](Docs/game_loop.gif)
+
+**Graphics and Audio:** Specifications for graphics (screen resolution, tile dimensions, ...) and audio (format, channels, ...) accompanied by a short explanation of their implementation.
+**Artificial Intelligence:** Explanation of the AI's behaviour and role in the gameplay as well as which entities are controlled by it.
+**Logic:** Diagram or written explanation of the Entity System and Game Object hierarchy.
+**Physics and Collisions:** Analysis of the functionality of collisions and physics of the game (Are they realistic? To which objects are they applied?)
 
 ### 6  Code Style
 
 ### 7  Diagrams
+Diagrams of the code
 
 ### 8  Data Layout
 
@@ -124,9 +138,9 @@ In the case that there is time left, the students will be asked to form their pr
 
 [TDD Example 4](https://flylib.com/books/en/3.36.1.158/1/)
 
-[Branching in GitHub](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches)
-
 [Performance Budgets](https://web.dev/performance-budgets-101/)
+
+[Branching in GitHub](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches)
 
 
 
