@@ -15,10 +15,10 @@ I am [Enric-G. Durán](https://github.com/EnricGDV), student of the UPC [Bachelo
     - 1. [Introduction](https://enricgdv.github.io/Research-TDD/#1--introduction)
     - 2. [Technical Goals](https://enricgdv.github.io/Research-TDD/#2--target-platform)
     - 3. [Development Hardware](https://enricgdv.github.io/Research-TDD/#3--development-hardware)
-    - 4. [Development Software](https://enricgdv.github.io/Research-TDD/#4--external-tools)
+    - 4. [Development Software](https://enricgdv.github.io/Research-TDD/#4--development-software)
     - 5. [Game Mechanics](https://enricgdv.github.io/Research-TDD/#5--game-mechanics)
     - 6. [Code Style](https://enricgdv.github.io/Research-TDD/#6--code-style)
-    - 7. [Diagrams](https://enricgdv.github.io/Research-TDD/#7--diagrams)
+    - 7. [UML](https://enricgdv.github.io/Research-TDD/#7--uml)
     - 8. [Data Layout](https://enricgdv.github.io/Research-TDD/#8--data-layout)
     - 9. [Scheduling](https://enricgdv.github.io/Research-TDD/#9--scheduling)
     - 10. [Build Delivery Method](https://enricgdv.github.io/Research-TDD/#10--build-delivery-method)
@@ -83,27 +83,43 @@ Similar to the case of the **Target Platform**, here we should find the minimum 
 ### 4  Development Software
 Specification of the software and pre-existing code that will be used during the project as well as what the software is going to be used for. This englobes any piece of software that the developers of the game haven't made and need to know how to use to implement in the project.
 
-![](Docs/art software.gif)
+![](Docs/art_software.gif)
 
 **GitHub Branching:**
 GitHub, which is a platform used to share the work environment of the project, allows developers to work in different branches. This is called branching and while useful, this establishes a following of rules and conventions that must be followed every commit. It is important that the branches are explained in the TDD **so that this advantage doesn't become a setback for the project.**
 
 ### 5  Game Mechanics
 Here each of the parts of the game that need to be implemented in the code are explained.
+
 **Technical Requirements:** A list of every important feature that the team needs to develop and implement into the game and what the plan to do it is (i.e. Entity System, Split Screen, Random Map Generation...)
+
 **Game Architecture:** A diagram or a written explanation of the game loop and how data is managed (saved and loaded) trhoughout the game.
 
 ![](Docs/game_loop.gif)
 
 **Graphics and Audio:** Specifications for graphics (screen resolution, tile dimensions, ...) and audio (format, channels, ...) accompanied by a short explanation of their implementation.
+
 **Artificial Intelligence:** Explanation of the AI's behaviour and role in the gameplay as well as which entities are controlled by it.
+
 **Logic:** Diagram or written explanation of the Entity System and Game Object hierarchy.
+
 **Physics and Collisions:** Analysis of the functionality of collisions and physics of the game (Are they realistic? To which objects are they applied?)
 
 ### 6  Code Style
+Every project should follow a **homogeneous set of rules** for all the code that is implemented by the different programmers so that the project has better intelligibility for any interested people who might see it and also for the participants. Having a homogeneous code style is a very easy way to avoid time of debugging and fixing errors. The strictness of the code style guidelines is different in every team, but some examples of conventions would be:
 
-### 7  Diagrams
-Diagrams of the code
+- **Naming Rules:** These explain rules like the code language, how variables act and are created, signs like parenthesis or claudators and the perspective on comments.
+For example:
+
+```markdown
+No variable should start with a capital letter
+uint Life 100
+```
+
+### 7  UML
+Main UML of the **Code Organization Overview**. An UML diagram of all the code in the project that shows every class, the inheritance between them and the variables and functions allocated inside. This diagram is supposed to change throughout the time of development, increasing its size and complexity.
+
+![Image](Docs/uml.png)
 
 ### 8  Data Layout
 
