@@ -80,6 +80,9 @@ More about [Performance Budgets](https://web.dev/performance-budgets-101/)...
 ### 3 Development Hardware
 Similar to the case of the **Target Platform**, here we should find the minimum requirements for the pieces of hardware we plan on using for the making of the game: Computers( Minimum OS version, speed at which programs should run...), Screens, Art Tools (graphic tablets, more powerful computers for rendering, cameras...), etc.
 
+**DevKits:**
+In the case that the game developed is meant to be played in a console, a request should be filled for the company to provide a **DevKit**, which is a piece of hardware that allows software to be tested in the conditions of the respective console.  
+
 ### 4 Development Software
 Specification of the software and pre-existing code that will be used during the project as well as what the software is going to be used for. This englobes any piece of software that the developers of the game haven't made and need to know how to use to implement in the project.
 
