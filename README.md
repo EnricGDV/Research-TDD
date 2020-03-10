@@ -13,7 +13,7 @@ I am [Enric-G. Durán](https://github.com/EnricGDV), student of the UPC [Bachelo
 
 - [My Solution](https://enricgdv.github.io/Research-TDD/#my-solution)
     - [Introduction](https://enricgdv.github.io/Research-TDD/#1-introduction)
-    - [Technical Goals](https://enricgdv.github.io/Research-TDD/#2-target-platform)
+    - [Technical Goals](https://enricgdv.github.io/Research-TDD/#2-technical-goals)
     - [Development Hardware](https://enricgdv.github.io/Research-TDD/#3-development-hardware)
     - [Development Software](https://enricgdv.github.io/Research-TDD/#4-development-software)
     - [Game Mechanics](https://enricgdv.github.io/Research-TDD/#5-game-mechanics)
