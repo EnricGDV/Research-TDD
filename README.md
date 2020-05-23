@@ -175,7 +175,7 @@ Main UML of the **Code Organization Overview**. An UML diagram of all the code i
 Image of [DevCrumb](https://github.com/DevCrumbs/Warcraft-II/)’s general UML for their game Warcraft II: The Stolen Artifacts.
 
 ### 8 Data Layout
-Diagram or explanation of how the folders of the project are distributed and a brief explanation stating the logic behind it, as well as an enumeration the file naming conventions (CamelCase, snake_case, kebab-case, Train-Case, l33t...).
+Diagram or explanation of how the folders of the project are distributed and a brief explanation stating the logic behind it, as well as an enumeration the file naming conventions (CamelCase, snake_case, kebab-case, Train-Case, l33t, ...).
 
 ![Image](Docs/layout.png)
 
