@@ -74,7 +74,7 @@ Includes the name of the game, the team members, a brief description (genre, mai
 It keeps the goal and the basics of the project in the mind of the engineers.
 
 ### 2 Technical Goals
-Includes the chosen platform for the project and its technical specifications.
+Includes the chosen platform (or platforms) for the project and its technical specifications.
 But most importantly, it includes the **performance budgets**, which are the resources the game can afford to use and are mesured in many ways: 
 - Minimum fps
 - Maximum quantity of textures
@@ -166,6 +166,7 @@ uint life = 100
 
 This list of elements has been made taking [DLorenzoLaguno](https://dlorenzolaguno17.github.io/)’s TDD as a reference.
 
+In order to ensure that these rules are followed and improving the team's performance, **Code Reviews** could be scheduled regularly so that the engineers review each other's code in search for optimization and following of the conventions.
 
 ### 7 UML
 Main UML of the **Code Organization Overview**. An UML diagram of all the code in the project that shows every class, the inheritance between them and the variables and functions allocated inside. This diagram is supposed to change throughout the time of development, increasing its size and complexity.
