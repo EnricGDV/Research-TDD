@@ -35,34 +35,39 @@ A TDD basically works like a blueprint for the programmers or engineers in the t
 
 ![](Docs/lego.gif)
 
-Apart from coders, the rest of the team also benefits from knowing the TDD as it specifies every piece of hardware or software to use in the process and lets them know the limits of what they can make or design.
-Without a TDD, a project is almost undoubtedly going to suffer from lacking information about its limitations, scope and procedures to stick to when it comes to coding.
+Apart from coders, the rest of the team also benefits from having the TDD as it specifies every piece of hardware and software to be used in the process and lets them know the limits of what they can make or design.
+Without a TDD, a project is almost undoubtedly going to suffer from a lack of information about the limitations, scope and procedures to stick to when it comes to coding.
 
 ## Approaches
-Once we understand the importance of making a TDD for our project, we should search for references from other teams that have similar needs to ours in order to find a proper structure and really understand what this document is about.
+Once we understand the importance of making a TDD for our project, we should search for references from other teams that have similar needs to ours in order to find a proper structure and really understand what this document is about. There's no absolute convention for the TDD, but there are shared needs in projects of the same field that lead to similar solutions.
 
 ### In Software
-For software creation in general, [TDDs](https://medium.com/machine-words/writing-technical-design-docs-revisited-850d36570ec) are very related to research and the functionality of the code itself: the questions and the answers the program wants to provide. However, in essence, the template for any TDD follows the same logical order that goes from what we want to do to what platform do we do it for, how we do it, where we do it and how we deliver it.
+For software creation in general, [TDDs](https://medium.com/machine-words/writing-technical-design-docs-revisited-850d36570ec) are very related to research and the functionality of the code itself: the questions and the answers the program wants to provide. However, in essence, the template for any TDD still follows the logical order that goes as following: 
+- What do we want to do?
+- What platform do we do it for?
+- How do we do it?
+- Where do we do it?
+- How do we deliver it?
 
 ![](Docs/software.gif)
 
 (for more examples go to [Bibliography](https://enricgdv.github.io/Research-TDD/#bibliography))
 
 ### In Games
-In game creation [TDDs](https://github.com/GameDesign/Zero/wiki/Technical-Design-Document#Game_Overview) is where we can find examples similar to what our document should be like. We can see different structures depending on what the focus is, however, most examples you can find will follow the same important bullet points. One important thing to take into account, though, is that our project's scope is very different from big productions and there are technical differences between genres, platforms, artstyles...
+In game creation [TDDs](https://github.com/GameDesign/Zero/wiki/Technical-Design-Document#Game_Overview) are where we can find examples similar to what our document should be like. We can see different structures depending on what the focus is, however, most examples you can find will follow the same important bullet points. One important thing to take into account, though, is that our project's scope is very different from big productions. There are also big technical differences between different genres, platforms, artstyles...
 ![](Docs/games.gif)
 
 (for more examples go to [Bibliography](https://enricgdv.github.io/Research-TDD/#bibliography))
 
 ### In this Subject
-Finally, we need to know that we are not the only ones that have done this project and we can look back to see what [TDD](https://github.com/DevCrumbs/Warcraft-II/wiki/7.-Tech-Design-Document) proposals other students came up with in past years for a situation nearer to the scope of our own project. The point of this is NOT copying, but learning from them and improving their proposals.
+Finally, we need to know that we are not the only ones that have done this kind of project and we can look back to see what [TDD](https://github.com/DevCrumbs/Warcraft-II/wiki/7.-Tech-Design-Document) proposals other students came up with in past years for a situation nearer to ours. The point of this is NOT copying, but learning from them and improving their proposals.
 
 ![Image](Docs/this_subject.jpg)
 
 (for more examples go to [Bibliography](https://enricgdv.github.io/Research-TDD/#bibliography))
 
 ## My Solution
-After my research through different structures proposed online, I arrived to the following TDD template:
+After my research through different structures found online, I arrived to the following TDD template:
 
 ### 1 Introduction
 Includes the name of the game, the team members, a brief description (genre, main mechanics, feel...), the code language and the licensing.
@@ -70,31 +75,41 @@ It keeps the goal and the basics of the project in the mind of the engineers.
 
 ### 2 Technical Goals
 Includes the chosen platform for the project and its technical specifications.
-But most importantly, it includes the **performance budgets**, which are the resources the game can afford to use and are mesured in many ways: fps, quantity of textures, waiting time.... These are affected by the genre, mechanics, style and platform, but moreover, the resources of the team.
-The performance budgets should be made considering  **the target platform** and vice-versa as an incongruence between them could cause the game to be too powerful for a platform or not use the resources the platform offers.
+But most importantly, it includes the **performance budgets**, which are the resources the game can afford to use and are mesured in many ways: 
+- Minimum fps
+- Maximum quantity of textures
+- Quality of textures
+- Number of polygons onscreen
+- Maximum weight of the game
+- Maximum RAM usage
+- ...
+
+These are affected by the genre, mechanics, style and platform, but moreover, the resources of the team (actual budget).
+The performance budgets should be made considering  **the target platform** and vice-versa as an incongruence between them could cause the game to be too powerful for a platform or not use the variety of resources the platform offers.
 
 More about [Performance Budgets](https://web.dev/performance-budgets-101/)...
 
 ![](Docs/platform.gif)
 
 ### 3 Development Hardware
-Similar to the case of the **Target Platform**, here we should find the minimum requirements for the pieces of hardware we plan on using for the making of the game: Computers( Minimum OS version, speed at which programs should run...), Screens, Art Tools (graphic tablets, more powerful computers for rendering, cameras...), etc.
+Similarly to what we saw about the **Target Platform**, here we should find the minimum requirements for the pieces of hardware we plan on using for the making of the game: Computers( Minimum OS version, speed at which programs should run...), screens, art tools (graphic tablets, more powerful computers for rendering, cameras...), DevKits, controllers, etc.
 
 **DevKits:**
-In the case that the game developed is meant to be played in a console, a request should be filled for the company to provide a **DevKit**, which is a piece of hardware that allows software to be tested in the conditions of the respective console.  
+In the case that the game developed is meant to be played in a console, a request should be filled for the respective company to provide a **DevKit**, which is a piece of hardware that allows software to be tested in an environment similar to the respective console. A part of the budget should be allocated for buying the DevKit if it is necessary.
+DevKits are crucial in order to make sure that the game fulfills all the compliances the target console's company asks for.
 
 ### 4 Development Software
-Specification of the software and pre-existing code that will be used during the project as well as what the software is going to be used for. This englobes any piece of software that the developers of the game haven't made and need to know how to use to implement in the project.
+Specification of the software and pre-existing code that will be used during the project as well as what the software is going to be used for. This englobes any piece of software that the developers of the game haven't made and need to learn how to use in order to implement something in the project.
 
 ![](Docs/art_software.gif)
 
 **GitHub Branching:**
-GitHub, which is a platform used to share the work environment of the project, allows developers to work in different branches. This is called branching and while useful, this establishes a following of rules and conventions that must be followed every commit. It is important that the branches are explained in the TDD **so that this advantage doesn't become a setback for the project.**
+An example of software used in a lot of projects is GitHub, which is a platform used to share the work environment of the project between the different engineers and allows developers to work in different versions of the same project. This is called branching and, while useful, there must be rules and conventions to be followed every commit. It is important that the branching policy is explained in the TDD **so that this advantage doesn't become a setback for the project.**
 
 ### 5 Game Mechanics
 Here each of the parts of the game that need to be implemented in the code are explained.
 
-**Technical Requirements:** A list of every important feature that the team needs to develop and implement into the game and what the plan to do it is (i.e. Entity System, Split Screen, Random Map Generation...)
+**Technical Requirements:** A list of every important feature that the team needs to develop and implement into the game and what the plan to do so is (i.e. Entity System, Split Screen, Random Map Generation...)
 
 **Game Architecture:** A diagram or a written explanation of the game loop and how data is managed (saved and loaded) trhoughout the game.
 
@@ -106,22 +121,22 @@ Here each of the parts of the game that need to be implemented in the code are e
 
 **Logic:** Diagram or written explanation of the Entity System and Game Object hierarchy.
 
-**Physics and Collisions:** Analysis of the functionality of collisions and physics of the game (Are they realistic? To which objects are they applied?)
+**Physics and Collisions:** Analysis of the functionality of collisions and physics of the game (Are they realistic? To which objects are they applied? Are we using a physics engine?)
 
 **Network:** Only needed in the case that the game has online features.
 
 ### 6 Code Style
-Every project should follow a **homogeneous set of rules** for all the code that is implemented by the different programmers so that the project has better intelligibility for any interested people who might see it and also for the participants. Having a homogeneous code style is a very easy way to avoid losing time of debugging and fixing errors. The strictness of the code style guidelines is different in every team, but some examples of conventions would be:
+Every project should follow a **homogeneous set of rules** for all the code that is implemented by the different programmers so that the project has better intelligibility for any interested people who might see it and also for the participants. Having a homogeneous code style is a very easy way to avoid losing time debugging and fixing errors. The level of strictness of the code style guidelines is different in every team, but some examples of conventions would be:
 
 - **Naming Rules:** These explain rules like the code language, how variables act and are created, signs like parenthesis or claudators and the perspective on comments.
 For example:
 
 ```
 Every variable should start with a lower case letter
-uint life 100
+uint life = 100
 ```
 
-- **Variables:** How to manage, declare and initialize variables and whether to declare them inside ```public```, ```protected``` or ```private``` part when using classes or structs. For example:
+- **Variables:** How to manage, declare and initialize variables and whether to declare them inside ```public```, ```protected``` or ```private``` when using classes or structs. For example:
 
 ```
  Every time a pointer is created must be initialized as null:
@@ -160,9 +175,11 @@ Main UML of the **Code Organization Overview**. An UML diagram of all the code i
 Image of [DevCrumb](https://github.com/DevCrumbs/Warcraft-II/)’s general UML for their game Warcraft II: The Stolen Artifacts.
 
 ### 8 Data Layout
-Diagram or explanation of how the folders of the project are distributed and a brief explanation stating the logic behind it.
+Diagram or explanation of how the folders of the project are distributed and a brief explanation stating the logic behind it, as well as an enumeration the file naming conventions (CamelCase, snake_case, kebab-case, Train-Case, l33t...).
 
 ![Image](Docs/layout.png)
+
+More about [Naming Conventions](https://adrianalonso.es/cajon-desatre/convencion-de-nombres-desde-el-camelcase-hasta-el-kebab-case/)...
 
 ### 9 Scheduling
 Here we can find a calendar or graph (trello style) with every feature to include in the game, the person in charge of it and its delivery date. It should as well include all the vertical slices, builds and sprints allocated during the project. This schedule is a form of orientation and is most definitely going to change.
@@ -171,8 +188,11 @@ Here we can find a calendar or graph (trello style) with every feature to includ
 
 In addition, there will also be a list of every version planned from the start of the project as a guideline for the order of the features implemented and such.
 
+These could be specified in the GDD or any other document and just alluded to or linked in the TDD.
+
 ### 10 Build Delivery Method
 This section allocates an explanation of how every build will be created in the project.
+It also specifies whether Continuous Integration and Continuous Deployment will be implementated and through which software.
 
 ![Image](Docs/github_actions.png)
 
@@ -208,3 +228,5 @@ In the case that there is time left, the students will be asked to form their pr
 [Performance Budgets](https://web.dev/performance-budgets-101/)
 
 [Branching in GitHub](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches)
+
+[Naming Conventions](https://adrianalonso.es/cajon-desatre/convencion-de-nombres-desde-el-camelcase-hasta-el-kebab-case/)
